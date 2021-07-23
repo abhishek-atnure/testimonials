@@ -1,0 +1,219 @@
+/* #ffffff */
+/* back:#f3f8ff */
+/* letter: #798090 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+#h1 {
+  display: none;
+}
+
+.App {
+  background: #eef2f7;
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+}
+.testi-container {
+}
+.testi-list {
+  position: relative;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  top: 10%;
+  width: 990px;
+  background: #ffffff;
+  margin-left: 12%;
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-right: 60px;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+  overflow: hidden;
+}
+
+.testi {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+}
+
+.testi-list h1 {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.testi h2 {
+  margin: 10px 0;
+  font-size: 26px;
+  color: #424b5a;
+}
+
+.testi h3 {
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 200;
+  color: #77797c;
+}
+
+.testi-desi {
+  display: inline-flex;
+  /* margin-left: 8px; */
+}
+
+.buttons button {
+  height: 40px;
+  width: 100px;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.avatar-div {
+  margin-top: 30px;
+}
+.img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 5px blue solid;
+  margin: 5px 10px 5px 0;
+}
+
+.primary {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 5px white solid;
+  margin: 5px 10px 5px 0;
+}
+
+.avatar-list {
+  display: flex;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  top: 40px;
+  margin-left: 30px;
+}
+#right-icon {
+  height: 50px;
+  width: 50px;
+  background: hsl(213, 36%, 95%);
+  border-radius: 50%;
+  transform: rotate(180deg);
+  user-select: none;
+}
+
+#left-icon {
+  height: 50px;
+  width: 50px;
+  background: hsl(213, 36%, 95%);
+  border-radius: 50%;
+  user-select: none;
+}
+
+.left-div {
+  background: #eef2f7;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  top: -4px;
+}
+
+.right-div {
+  margin-right: 10px;
+}
+
+.avtar-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-height: 100vh;
+    overflow-y: hidden;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+  }
+  h1 {
+    display: none;
+  }
+
+  #h1 {
+    font-size: 18px;
+    display: block;
+    margin: 10px;
+    margin-left: 17px;
+  }
+  .testi-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .testi-list {
+    height: 100vh;
+    width: 200px;
+    position: absolute;
+
+    left: -20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .testi h2 {
+    font-size: 25px;
+    letter-spacing: 0.4px;
+  }
+
+  .avatar-list {
+    display: none;
+  }
+
+  .buttons {
+    margin-top: 10px;
+    position: relative;
+    top: 440px;
+    left: 120px;
+  }
+
+  #left-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  #right-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .testi h3 {
+    font-size: 18px;
+  }
+
+  .testi-desi {
+    margin-bottom: 10px;
+  }
+}
