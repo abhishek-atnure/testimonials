@@ -148,15 +148,16 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    max-height: 100vh;
-    overflow-y: hidden;
-  }
+
   * {
     padding: 0;
     margin: 0;
     height: 100vh;
   }
+  .App{
+    height:115vh;
+  }
+  
   h1 {
     display: none;
   }
